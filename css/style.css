@@ -82,16 +82,16 @@
      @-o-keyframes flashAnim{ from{background:rgba(39,133,204,0); color:#707070;} 50%{background:rgba(39,133,204,1); color:white;} to {background:rgba(39,133,204,0); color:#707070;} } 
         @keyframes flashAnim{ from{background:rgba(39,133,204,0); color:#707070;} 50%{background:rgba(39,133,204,1); color:white;} to {background:rgba(39,133,204,0); color:#707070;} } 
 #pun-navlinks .flash {
-background: #00437B;
--webkit-animation: flashAnim 3s linear infinite;
-   -moz-animation: flashAnim 3s linear infinite;
-    -ms-animation: flashAnim 3s linear infinite;
-     -o-animation: flashAnim 3s linear infinite;
-        animation: flashAnim 3s linear infinite;
+	background: #00437B;
+        -webkit-animation: flashAnim 3s linear infinite;
+           -moz-animation: flashAnim 3s linear infinite;
+            -ms-animation: flashAnim 3s linear infinite;
+             -o-animation: flashAnim 3s linear infinite;
+                animation: flashAnim 3s linear infinite;
 }
 #pun-navlinks .flash a {color: #FFFFFF;}
 
-/* Xevious */
+/* Xevious Menu2 */
 #pun-head #pun-navlinks2{
 	padding:0;
 }
@@ -159,3 +159,35 @@ body{
 }
 #pun-navlinks2 a:active, #pun-navlinks a:focus, #pun-navlinks a:hover {text-decoration:none}
 #pun-navlinks2 a:link {color:#707070}
+
+/* esiao Menu 3 (lavalamp) */
+#pun-navlinks3 {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 10px;
+}
+#pun-navlinks3 ul li {
+	display: inline-block!important;
+	list-style: none!important;
+	padding: 5px 10px;
+	margin: 0 10px;
+}
+#pun-navlinks3 ul li a {text-decoration: none; color: whiteSmoke;}
+#pun-navlinks3 ul li:first-child {display: none!important;}
+#pun-navlinks3 ul li:last-child {display: none!important;}
+#pun-navlinks3 ul li a img {display: none!important;}
+.floatr {
+    	position: absolute;
+    	top: 10px;
+    	z-index: 50;
+    	width: 70px;
+    	height: 30px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+        -webkit-transition: all .4s ease-in-out;
+           -moz-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+             -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+}
