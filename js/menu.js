@@ -21,7 +21,7 @@ var url = window.location;
 $('#pun-navlinks3 a[href="'+ url +'"]').addClass('current');
 $('#pun-navlinks3 a').filter(function() {
     return this.href == url;
-}).addClass('active')
+}).parent().addClass('active')
 });
 
 $(function(){
