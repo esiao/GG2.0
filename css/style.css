@@ -185,11 +185,11 @@ position: relative;
 	z-index: 0;
 	width: 70px;
 	height: 30px;
-	background: #444;
+	background: rgba(255, 255, 255, 0.15);
 	border-radius: 10px;
-		-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-		 -o-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+	   	   -moz-transition: all .5s ease-in-out;
+		    -ms-transition: all .5s ease-in-out;
+		     -o-transition: all .5s ease-in-out;
+		        transition: all .5s ease-in-out;
 }
