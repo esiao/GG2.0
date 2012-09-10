@@ -177,7 +177,6 @@ position: relative;
 }
 #pun-navlinks3 ul li a {text-decoration: none; color: whiteSmoke;}
 #pun-navlinks3 ul li:first-child {display: none!important;}
-#pun-navlinks3 ul li:last-child {display: none!important;}
 #pun-navlinks3 ul li a img {display: none!important;}
 .floatr {
 	position: absolute;
@@ -192,4 +191,107 @@ position: relative;
 		    -ms-transition: all .5s ease-in-out;
 		     -o-transition: all .5s ease-in-out;
 		        transition: all .5s ease-in-out;
+}
+
+/* esiao Menu 4 (borders) */
+#pun-navlinks4 {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	position: relative;
+	margin-top: 10px;
+}
+#pun-navlinks4 ul li {
+	display: inline-block!important;
+	list-style: none!important;
+	margin: 0px 5px;
+	height: 45px;
+	line-height: 45px;
+}
+#pun-navlinks4 ul li a {
+	text-decoration: none;
+	display: inline-block!important;
+	color: #a6a6a6;
+	height: 41px;
+	padding: 0 5px;
+	border-bottom: 3px solid rgba(46,156,222,0);
+	-webkit-transition: all 0.4s linear;
+	   -moz-transition: all 0.4s linear;
+        -ms-transition: all 0.4s linear;
+         -o-transition: all 0.4s linear;
+            transition: all 0.4s linear;
+}
+#pun-navlinks4 ul li a:hover {
+	border-bottom: 3px solid rgba(46,156,222,0.8);
+	color: white;
+	-webkit-transition: all 0.7s linear;
+	   -moz-transition: all 0.7s linear;
+        -ms-transition: all 0.7s linear;
+         -o-transition: all 0.7s linear;
+            transition: all 0.7s linear;
+}
+#pun-navlinks4 ul li:first-child {display: none!important;}
+#pun-navlinks4 ul li a img {display: none!important;}
+@-webkit-keyframes flashAnimB{ from{border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} 50%{border-bottom: 3px solid rgba(46,156,222,0.8); color:white;} to {border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} } 
+   @-moz-keyframes flashAnimB{ from{border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} 50%{border-bottom: 3px solid rgba(46,156,222,0.8); color:white;} to {border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} } 
+    @-ms-keyframes flashAnimB{ from{border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} 50%{border-bottom: 3px solid rgba(46,156,222,0.8); color:white;} to {border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} } 
+     @-o-keyframes flashAnimB{ from{border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} 50%{border-bottom: 3px solid rgba(46,156,222,0.8); color:white;} to {border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} } 
+        @keyframes flashAnimB{ from{border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} 50%{border-bottom: 3px solid rgba(46,156,222,0.8); color:white;} to {border-bottom: 3px solid rgba(46,156,222,0); color:#a6a6a6;} } 
+#pun-navlinks4 .flash {
+	border-bottom: 3px solid rgba(46,156,222,0.8);
+        -webkit-animation: flashAnimB 3s linear infinite;
+           -moz-animation: flashAnimB 3s linear infinite;
+            -ms-animation: flashAnimB 3s linear infinite;
+             -o-animation: flashAnimB 3s linear infinite;
+                animation: flashAnimB 3s linear infinite;
+}
+/* esiao Menu 5 (glow) */
+#pun-navlinks5 {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	position: relative;
+	margin-top: 10px;
+}
+#pun-navlinks5 ul li {
+	display: inline-block!important;
+	list-style: none!important;
+	margin: 0px 5px;
+	height: 45px;
+	line-height: 45px;
+}
+#pun-navlinks5 ul li a {
+	text-decoration: none;
+	display: inline-block!important;
+	color: #a6a6a6;
+	height: 41px;
+	padding: 0 5px;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+#pun-navlinks5 ul li a:hover {
+	color: white;
+	text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+#pun-navlinks5 ul li:first-child {display: none!important;}
+#pun-navlinks5 ul li a img {display: none!important;}
+@-webkit-keyframes flashAnimC{ from{color:#a6a6a6;} 50%{text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7; color:white;} to {color:#a6a6a6;} } 
+   @-moz-keyframes flashAnimC{ from{color:#a6a6a6;} 50%{text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7; color:white;} to {color:#a6a6a6;} } 
+    @-ms-keyframes flashAnimC{ from{color:#a6a6a6;} 50%{text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7; color:white;} to {color:#a6a6a6;} } 
+     @-o-keyframes flashAnimC{ from{color:#a6a6a6;} 50%{text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7; color:white;} to {color:#a6a6a6;} } 
+        @keyframes flashAnimC{ from{color:#a6a6a6;} 50%{text-shadow:0 0 1px #081E2B ,0 0 2px #030c12, 0 0 3px #52BFFF,0 0 10px #2A8FCB, 0 0 20px #2D9CDE, 0 0 30px #1E74A7; color:white;} to {color:#a6a6a6;} } 
+#pun-navlinks5 .flash {
+        -webkit-animation: flashAnimC 3s linear infinite;
+           -moz-animation: flashAnimC 3s linear infinite;
+            -ms-animation: flashAnimC 3s linear infinite;
+             -o-animation: flashAnimC 3s linear infinite;
+                animation: flashAnimC 3s linear infinite;
 }
