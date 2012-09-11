@@ -1,3 +1,11 @@
+body{
+	/*background: url('http://img15.hostingpics.net/pics/505732blackmamba.png') repeat top left fixed;*/
+	background: url('http://i.imgur.com/ClTEo.png') repeat top left fixed;
+}
+#pun-intro{
+	background: 0 !important;
+	border-bottom: 0;
+}
 #pun-head #pun-navlinks{
 	padding:0;
   	border-top: 1px solid black;
@@ -92,13 +100,6 @@
 #pun-navlinks .flash a {color: #FFFFFF;}
 
 /* Xevious Menu2 */
-body{
-	background: url('http://img15.hostingpics.net/pics/505732blackmamba.png') repeat top left fixed;
-}
-#pun-intro{
-	background: 0 !important;
-	border-bottom: 0;
-}
 #pun-navlinks2{
 	margin-top: 10px;
 	padding: 0;
@@ -295,3 +296,53 @@ position: relative;
              -o-animation: flashAnimC 3s linear infinite;
                 animation: flashAnimC 3s linear infinite;
 }
+/* esiao Menu 6 (image) */
+#pun-navlinks6 {
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+#pun-navlinks6 ul li {
+	background-image: url('http://i.imgur.com/7Xbnr.png');
+	color: #c6c6c6;
+	background-position: top right;
+	background-repeat: repeat-x;
+	text-shadow: 0px -1px 0 black;
+	font-size: 12px;
+	border: 0;
+	cursor: pointer;
+	height: 45px;
+	position: relative;
+	text-align: center;
+	width: auto;
+	display: inline-block;
+	margin: 0 4px;
+	padding: 0;
+}
+#pun-navlinks6 ul li a {
+	background: url('http://i.imgur.com/7Xbnr.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	border: none;
+	right: 14px;
+	padding: 0 12px 0 22px;
+	color: #c6c6c6;
+	text-decoration: none;
+}
+#pun-navlinks6 ul li a:hover {
+	color: white;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+#pun-navlinks6 ul li:first-child {display: none!important;}
+#pun-navlinks6 ul li:nth-child(2) a {border-radius: 10px;}
+#pun-navlinks6 ul li:last-child {border-radius: 10px; margin-right: 0;}
+#pun-navlinks6 ul li a img {display: none!important;}
+#pun-navlinks6 .flash {}

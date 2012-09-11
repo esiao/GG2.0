@@ -1,9 +1,6 @@
 $(document).ready(function(){
 $('#pun-navlinks ul li:first-child').remove();
 $('#pun-navlinks').html($('#pun-navlinks').html().replace(/&nbsp;/g,''));
-$('#pun-navlinks3 ul li:first-child').remove();
-$('#pun-navlinks3').html($('#pun-navlinks3').html().replace(/&nbsp;/g,''));
-$('#pun-navlinks3 ul li:nth-child(2) a').html($('#pun-navlinks3 ul li:nth-child(2) a').html().replace(/Accueil/g,'Forum'));
 $('#pun-navlinks ul li:first-child a').html($('#pun-navlinks ul li:first-child a').html().replace(/Portail/g,''));
 $('#pun-navlinks ul li:nth-child(2) a').html($('#pun-navlinks ul li:nth-child(2) a').html().replace(/Accueil/g,'Forum'));
 });
