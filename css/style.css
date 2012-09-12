@@ -2,6 +2,11 @@ body{
 	/*background: url('http://img15.hostingpics.net/pics/505732blackmamba.png') repeat top left fixed;*/
 	background: url('http://i.imgur.com/ClTEo.png') repeat top left fixed;
 }
+.pun {
+	min-width: 960px;
+	max-width: 1280px;
+}
+
 #pun-intro{
 	background: 0 !important;
 	border-bottom: 0;
@@ -136,7 +141,7 @@ body{
 	color: #888;
  	/*text-shadow: 0 1px 0 black;*/
 	letter-spacing: 2px;
-	font-size: 11px;
+	font-size: 12px;
 	text-decoration: none;
  	line-height:36px;	
   	display: inline-block;
@@ -301,40 +306,49 @@ position: relative;
 	text-align: center;
 	position: relative;
 	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#pun-navlinks6 ul {
+	background: url('http://i.imgur.com/KnAEk.png');
+	border-top: 1px solid #2F3233;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
 }
 #pun-navlinks6 ul li {
-	background-image: url('http://i.imgur.com/7Xbnr.png');
-	color: #c6c6c6;
+	/*background-image: url('http://i.imgur.com/teY5u.png');
 	background-position: top right;
-	background-repeat: repeat-x;
-	text-shadow: 0px -1px 0 black;
-	font-size: 12px;
+	background-repeat: no-repeat;*/
 	border: 0;
 	cursor: pointer;
 	height: 45px;
-	position: relative;
-	text-align: center;
-	width: auto;
+	line-height: 45px;
 	display: inline-block;
-	margin: 0 4px;
-	padding: 0;
+	list-style: none;
+	margin: 0 2px;
+	padding: 0 11px;
+	float: left;
+	overflow: hidden;
+	width: 58px;
 }
+#pun-navlinks6 ul li:nth-child(n+8) {float: right;}
 #pun-navlinks6 ul li a {
-	background: url('http://i.imgur.com/7Xbnr.png');
-	background-position: top left;
-	background-repeat: no-repeat;
-	position: relative;
-	display: block;
+	text-decoration: none;
+	color: #c6c6c6;
+	text-shadow: 0px -1px 0 black;
+	font-size: 11px;
 	height: 45px;
 	line-height: 45px;
-	border: none;
-	right: 14px;
-	padding: 0 12px 0 22px;
-	color: #c6c6c6;
-	text-decoration: none;
+	position: relative;
+	left: 4px;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
 }
-#pun-navlinks6 ul li a:hover {
+#pun-navlinks6 ul li:hover > a {
 	color: white;
+	text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF;
 	-webkit-transition: all .5s ease-in-out;
 	   -moz-transition: all .5s ease-in-out;
         -ms-transition: all .5s ease-in-out;
@@ -342,7 +356,45 @@ position: relative;
             transition: all .5s ease-in-out;
 }
 #pun-navlinks6 ul li:first-child {display: none!important;}
-#pun-navlinks6 ul li:nth-child(2) a {border-radius: 10px;}
+#pun-navlinks6 ul li:nth-child(2) {display: none!important;}
 #pun-navlinks6 ul li:last-child {border-radius: 10px; margin-right: 0;}
 #pun-navlinks6 ul li a img {display: none!important;}
 #pun-navlinks6 .flash {}
+#logo_GG {
+	background: url('http://i.imgur.com/mKm0k.png');
+	width: 120px;
+	height:	77px;
+	margin-left: -60px;
+	position: absolute;
+	left: 50%;
+}
+@-webkit-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
+   @-moz-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
+    @-ms-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
+     @-o-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
+        @keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
+#pun-navlinks6 .flash {
+        -webkit-animation: flashAnimC 3s linear infinite;
+           -moz-animation: flashAnimC 3s linear infinite;
+            -ms-animation: flashAnimC 3s linear infinite;
+             -o-animation: flashAnimC 3s linear infinite;
+                animation: flashAnimC 3s linear infinite;
+}
+
+@media screen and (min-width: 1280px) {
+	#pun-navlinks6 ul li {
+		padding: 0 11px;
+		overflow: hidden;
+		width: 68px;
+	}
+	#pun-navlinks6 ul li a {
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 1600px) {
+	#pun-navlinks6 ul li {
+		padding: 0 11px;
+		width: 78px;
+		overflow: hidden;
+	}
+}
