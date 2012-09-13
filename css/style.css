@@ -99,7 +99,7 @@ padding: 0;
 #pun-navlinks .flash {}
 #logo_GG {
 	display: block;
-	background: url('http://i.imgur.com/B2tnQ.png');
+	background: url('http://i.imgur.com/AMawf.png');
 	background-position: top;
 	width: 120px;
 	height:	77px;
@@ -110,8 +110,8 @@ padding: 0;
 }
 #logo_GG a{
 	display: block;
-	background: url('http://i.imgur.com/B2tnQ.png');
-	background-position: bottom;
+	background: url('http://i.imgur.com/AMawf.png');
+	background-position: 0 -77px;
 	width: 120px;
 	height:	77px;
 	margin-left: -60px;
@@ -133,6 +133,8 @@ padding: 0;
          -o-transition: all .5s ease-in-out;
             transition: all .5s ease-in-out;
 }
+#logo_GG.current {background-position: 0 -154px;}
+#logo_GG.current a {background-position: bottom;}
 @-webkit-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
    @-moz-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
     @-ms-keyframes flashAnimC{ from{color:#c6c6c6;} 50%{text-shadow:0 0 1px black ,0 0 2px #030C12, 0 0 3px #10D9FF, 0 0 10px #0c8eff, 0 0 20px #0D68FF,0 0 20px #10D9FF; color:white;} to {color:#c6c6c6;} } 
