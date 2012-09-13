@@ -14,14 +14,6 @@ $('#pun-navlinks a').filter(function() {
 });
 
 $(function(){
-var url = window.location;
-$('#pun-navlinks3 a[href="'+ url +'"]').addClass('active');
-$('#pun-navlinks3 a').filter(function() {
-    return this.href == url;
-}).parent().addClass('active')
-});
-
-$(function(){
 $("a:contains('enregistrer')").addClass('flash');
 $("a:contains('Déconnexion')").addClass('flash');
 });

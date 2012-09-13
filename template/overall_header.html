@@ -233,7 +233,11 @@
 				<div class="pun">
 					<div id="pun-intro" class="clearfix">
 						<a href="{U_INDEX}" id="pun-logo"><img src="{LOGO}" alt="{L_INDEX}" /></a>
-
+						<!--[if IE]>
+						<style>
+						
+						</style>
+						<![endif]-->
 						<!-- BEGIN switch_h1 -->
 						<div id="pun-title">{switch_h1.MAIN_SITENAME}</div>
 						<!-- END switch_h1 -->
@@ -243,37 +247,18 @@
 						<!-- END switch_desc -->
 					</div>
 					<div id="pun-head">
-						<div id="pun-navlinks">
+                        <div id="pun-navlinks">
 							<ul class="clearfix">
 								<li>{GENERATED_NAV_BAR}</li>
 							</ul>
-						</div>
-                        <div id="pun-navlinks2">
-							<ul class="clearfix">
-								<li>{GENERATED_NAV_BAR}</li>
-							</ul>
-						</div>
-						<div id="pun-navlinks4">
-							<ul class="clearfix">
-								<li>{GENERATED_NAV_BAR}</li>
-							</ul>
-						</div>
-						<div id="pun-navlinks5">
-							<ul class="clearfix">
-								<li>{GENERATED_NAV_BAR}</li>
-							</ul>
-						</div>
-						<div id="pun-navlinks6">
-							<ul class="clearfix">
-								<li>{GENERATED_NAV_BAR}</li>
-                              	<a href="/"><div id="logo_GG"></div></a>
-                              	<!--[if IE]>
-                              	<style>
-                             	#logo_GG{display:none;}
-                              	#pun-navlinks6 ul li{float:none; clear:both;}
-                      	  		</style>
-                              	<![endif]-->
-							</ul>
+                          	<a href="/"><div id="logo_GG"></div></a>
+                          	<!--[if IE]>
+                          	<style>
+                         	#logo_GG{display:none;}
+                         	#pun-navlinks ul {text-align: center;}
+                          	#pun-navlinks ul li{float:none; clear:both; width: auto; text-align: center;}
+                  	  		</style>
+                          	<![endif]-->
 						</div>
 					</div>
 
