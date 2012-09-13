@@ -235,7 +235,7 @@
 						<a href="{U_INDEX}" id="pun-logo"><img src="{LOGO}" alt="{L_INDEX}" /></a>
 						<!--[if IE]>
 						<style>
-						
+
 						</style>
 						<![endif]-->
 						<!-- BEGIN switch_h1 -->
@@ -252,12 +252,16 @@
 								<li>{GENERATED_NAV_BAR}</li>
 							</ul>
                           	<a href="/"><div id="logo_GG"></div></a>
+                          	<style>#pun-navlinks ul li:first-child {display: none!important;}</style>
                           	<!--[if IE]>
                           	<style>
                          	#logo_GG{display:none;}
                          	#pun-navlinks ul {text-align: center;}
                           	#pun-navlinks ul li{float:none; clear:both; width: auto; text-align: center;}
                   	  		</style>
+                  	  		<script>
+                  	  		$('#pun-navlinks ul li:first-child').remove();
+                  	  		</script>
                           	<![endif]-->
 						</div>
 					</div>

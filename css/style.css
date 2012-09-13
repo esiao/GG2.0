@@ -30,6 +30,7 @@ padding: 0;
 	text-align: center;
 	position: relative;
 }
+.current {background: rgba(0, 0, 0, 0.3);}
 #pun-navlinks ul {
 	background: url('http://i.imgur.com/IlOz4.png');
 	border-top: 1px solid #2F3233;
@@ -51,15 +52,17 @@ padding: 0;
 	text-align: center;
 }
 #pun-navlinks ul li:first-child {display: none!important;}
-#pun-navlinks ul li:nth-child(n+7) {float: right;}
-#pun-navlinks ul li:nth-child(7) {
+#pun-navlinks ul li:nth-child(n+9) {float: right;}
+#pun-navlinks ul li:nth-child(9) {
 	float: left;
 	width: 0;
 	padding: 0;
 	border-right: 0;
 }
-#pun-navlinks ul li:nth-child(2) {border-left:0;}
-#pun-navlinks ul li:nth-child(8) {border-right:0;}
+#pun-navlinks ul li:nth-child(2) {display: none!important;}
+#pun-navlinks ul li:nth-child(3) {display: none!important;}
+#pun-navlinks ul li:nth-child(4) {border-left:0; border-radius: 10px 0 0 10px;}
+#pun-navlinks ul li:nth-child(9) {border-right:0; border-radius: 0 10px 10px 0;}
 #pun-navlinks ul li:last-child {
 	float: right;
 	width: 0;
@@ -90,7 +93,8 @@ padding: 0;
          -o-transition: all .5s ease-in-out;
             transition: all .5s ease-in-out;
 }
-#pun-navlinks a:hover {text-decoration: none;}
+#pun-navlinks a:hover, #pun-navlinks a:focus {text-decoration: none;}
+#pun-navlinks a:active {text-decoration: none; border:0;}
 #pun-navlinks ul li a img {display: none!important;}
 #pun-navlinks .flash {}
 #logo_GG {
