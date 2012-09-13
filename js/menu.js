@@ -1,4 +1,5 @@
 $(document).ready(function(){
+$('#logout').html('Déconnexion');
 var url = window.location;
 $('#pun-navlinks a[href="'+ url +'"]').addClass('current');
 $('#pun-navlinks a').filter(function() {
@@ -8,5 +9,5 @@ $('#pun-navlinks a').filter(function() {
 
 $(function(){
 $("a:contains('enregistrer')").addClass('flash');
-$("a:contains('Déconnexion')").addClass('flash');
+$('#i_icon_mini_new_message').parent().html('<span class="flash">Messagerie</span>');
 });

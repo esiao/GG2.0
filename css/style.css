@@ -13,7 +13,7 @@ body{
 }
 #pun-logo {
 	display: block;
-	width: 960px;
+	width: 940px;
 	height: 150px;
 	background: grey;
 	margin: 0 auto;
@@ -62,7 +62,7 @@ padding: 0;
 #pun-navlinks ul li:nth-child(2) {display: none!important;}
 #pun-navlinks ul li:nth-child(3) {display: none!important;}
 #pun-navlinks ul li:nth-child(4) {border-left:0; border-radius: 10px 0 0 10px;}
-#pun-navlinks ul li:nth-child(9) {border-right:0; border-radius: 0 10px 10px 0;}
+#pun-navlinks ul li:nth-child(10) {border-right:0; border-radius: 0 10px 10px 0;}
 #pun-navlinks ul li:last-child {
 	float: right;
 	width: 0;
