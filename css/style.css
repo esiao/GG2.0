@@ -18,9 +18,35 @@ a, a:hover {
             transition: all .2s linear;
 }
 .pun div, .pun td, .sig-line {border: none;}
-#pun-visit, .main-box {border: none;}
-#pun-about {border: none;}
 tbody {color: #B4B4B4;}
+/* Visit */
+#pun-visit, .main-box {border: none; padding: 10px;}
+#pun-visit a {color: #B4B4B4;}
+#pun-visit a:hover {color: white;}
+#user-info {
+	width: 30%;
+	background: #181818;
+	padding: 10px;
+	height: 36px;
+	line-height: 16px;
+	border-radius: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid #555;
+}
+#pun-visit ul li {
+	float: none;
+}
+#pun-visit ul {width: auto;}
+#pun-about {border: none;}
+/* Breadcrumbs */
+.pun-crumbs {background: url('http://i.imgur.com/iN7e8.png');}
+.pun-crumbs p {color:transparent!important; line-height: 26px}
+.pun-crumbs a {
+	display: inline-block;
+	background: url('http://i.imgur.com/o9jXY.png') no-repeat right;
+	padding-right: 30px;
+	margin-left: -5px;
+}
 /* --- Header --- */
 #pun-title, #pun-desc {display: none!important;}
 #pun-intro{
