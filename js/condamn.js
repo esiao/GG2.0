@@ -1,1 +1,1 @@
-$(function(){$('#main-content > div:first').remove()})
+$(function(){$('#main-content > div:first').remove()});

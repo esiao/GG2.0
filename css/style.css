@@ -21,7 +21,7 @@ a, a:hover {
 .pun div, .pun td, .sig-line {border: none;}
 tbody {color: #B4B4B4;}
 /* Visit */
-#pun-visit, .main-box {border: none; padding: 10px;}
+#pun-visit, .main-box {border: none; padding: 10px; border-radius: 10px;}
 #pun-visit a {color: #B4B4B4;}
 #pun-visit a:hover {color: white;}
 #user-info {
@@ -40,30 +40,57 @@ tbody {color: #B4B4B4;}
 #pun-visit ul {width: auto;}
 #pun-about {border: none;}
 /* Breadcrumbs */
-.pun-crumbs {background: #282828;}
+.pun-crumbs {background: #282828; border-radius: 10px; margin: 0;}
 .pun-crumbs p {color:transparent!important; line-height: 25px}
 .pun-crumbs a {
 	display: inline-block;
-	background: url('http://i.imgur.com/o9jXY.png') no-repeat right;
+	background: url('http://i.imgur.com/EA78u.png') no-repeat right;
 	padding-right: 30px;
 	margin-left: -5px;
 }
 .crumbs strong a:link, .crumbs strong a:visited, .crumbs strong a:focus, .crumbs strong a:active {color: white;}
 /* --- Forum --- */
+.page-title {background: url('http://i.imgur.com/zfN0y.png') no-repeat right;}
 .pun table.table th {
-	background-color: #333333;
+	background-color: #1B1B1B;
 	color: #C4C4C4;
 }
 .main .main-head {
 	background: url('http://i.imgur.com/IlOz4.png');
 	background-position: -15px;
-	border-bottom: 1px solid #424242
+	border-bottom: 1px solid #424242;
+	border-radius: 10px 10px 0px 0px;
 }
+.pun .main-content {margin-bottom: 10px;}
 .main .main-head .page-title {
 	font-size: 14px;
 	color: white;
 }
+.pun .main, .pun .main-category {
+	margin: 10px 0;
+}
 .pun .paged-foot, .pun .paged-head {background: none;}
+.main .frm-info {
+	background: #1F1F1F;
+	border: 1px solid #282828;
+}
+.pun tbody.statused span.status {margin-right: -44px; margin-left: -44px;}
+.pun tbody.statused td.tcl {
+padding-left: 54px;
+}
+.pun table td.tcl {height: 36px;}
+.tcr {position: relative;}
+.tcr img {
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+.main .main-foot, .main .main-head {
+	background: url('http://i.imgur.com/IlOz4.png');
+	background-position: 15px;
+}
+.tcl a img {display: none!important;}
+.tcl {width: 75%;}
 /* --- Header --- */
 #pun-title, #pun-desc {display: none!important;}
 #pun-intro{
@@ -73,10 +100,10 @@ tbody {color: #B4B4B4;}
 }
 #pun-logo {
 	display: block;
-        width: 100%;
-        height: 150px;
-        background: url('http://i.imgur.com/p3F6L.png') center no-repeat;
-        margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    background: url('http://i.imgur.com/p3F6L.png') center no-repeat;
+    margin: 0 auto;
 }
 #pun-head #pun-navlinks {
 	background-color: transparent;
@@ -222,4 +249,21 @@ tbody {color: #B4B4B4;}
 		padding: 0 17px;
 		overflow: hidden;
 	}
+}
+::-webkit-scrollbar {
+	background: url('http://i.imgur.com/ClTEo.png');
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment  {
+	display: none;
+}
+
+::-webkit-scrollbar-track-piece  {
+	background: transparent none;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	-webkit-border-radius: 6px;
+	background: #666 no-repeat center;
 }

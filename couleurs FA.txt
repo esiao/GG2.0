@@ -3,7 +3,9 @@ Couleur du Lien : #43AFFC
 
 Couleur de fond 1 : #282828
 Couleur de fond 2 : #282828
+Couleur de fond de l'en-tête : #3694CF
 
 Couleur du cadre du forum : /
 Couleur du cadre des tables : /
 Couleur du cadre des cellules : /
+Couleur Fond En-tête Catégorie : #3694CF
