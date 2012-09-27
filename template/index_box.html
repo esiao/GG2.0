@@ -28,7 +28,7 @@
 							</span>
 							<h{catrow.forumrow.LEVEL} class="hierarchy"><a href="{catrow.forumrow.U_VIEWFORUM}" class="forumtitle">{catrow.forumrow.FORUM_NAME}</a></h{catrow.forumrow.LEVEL}>
 							<br />
-							{catrow.forumrow.FORUM_DESC}
+							<p class="forumdesc">{catrow.forumrow.FORUM_DESC}</p>
 							<!-- BEGIN switch_moderators_links -->
 							<br />
 							{catrow.forumrow.switch_moderators_links.L_MODERATOR}{catrow.forumrow.switch_moderators_links.MODERATORS}
@@ -39,14 +39,14 @@
 						<td class="tc2">{catrow.forumrow.TOPICS}</td>
 						<td class="tc3">{catrow.forumrow.POSTS}</td>
 						<td class="tcr">
-							<p>
+							<div class="last-msg">
 							<span>
 							<!-- BEGIN switch_topic_title -->
-							<a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}">{catrow.forumrow.LATEST_TOPIC_NAME}</a><br />
+							<a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}" class="last-post-icon">{catrow.forumrow.LATEST_TOPIC_NAME}</a><br />
 							<!-- END switch_topic_title -->
 							{catrow.forumrow.USER_LAST_POST}
 							</span>
-							</p>
+							</div>
 						</td>
 					</tr>
 	<!-- END forumrow -->

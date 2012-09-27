@@ -19,10 +19,10 @@ a, a:hover {
             transition: all .2s linear;
 }
 .pun div, .pun td, .sig-line {border: none;}
-tbody {color: #B4B4B4;}
+tbody {color: #CECECE;}
 /* Visit */
 #pun-visit, .main-box {border: none; padding: 10px; border-radius: 10px;}
-#pun-visit a {color: #B4B4B4;}
+#pun-visit a {color: #CECECE;}
 #pun-visit a:hover {color: white;}
 #user-info {
 	width: 30%;
@@ -34,7 +34,7 @@ tbody {color: #B4B4B4;}
 	border-top: 1px solid black;
 	border-bottom: 1px solid #555;
 }
-#pun-visit ul li {
+#pun-visit li, .main-box li {
 	float: none;
 }
 #pun-visit ul {width: auto;}
@@ -79,18 +79,25 @@ tbody {color: #B4B4B4;}
 padding-left: 54px;
 }
 .pun table td.tcl {height: 36px;}
-.tcr {position: relative;}
-.tcr img {
-	position: absolute;
-	right: 0px;
-	top: 8px;
+.pun tbody.statused td.tcl {
+	position: relative; 
+	display: block;
 }
+.pun tbody.statused span.status {
+	left: 10px;
+    position: absolute;
+    margin: 0;
+}
+.pun table .tcl {width:auto;}
+div.last-msg {position: relative;}
+a.last-post-icon {position:absolute; right:0px; top:0px;}
+span.last-post-icon {position:absolute; right:0px; top:-9px;}
 .main .main-foot, .main .main-head {
 	background: url('http://i.imgur.com/IlOz4.png');
 	background-position: 15px;
 }
 .tcl a img {display: none!important;}
-.tcl {width: 75%;}
+.hierarchy, .forumdesc {margin-left: 10px;}
 /* --- Header --- */
 #pun-title, #pun-desc {display: none!important;}
 #pun-intro{
