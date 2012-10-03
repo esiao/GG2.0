@@ -34,6 +34,7 @@ $(function(){
 		<li><a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></li>
 		<!-- BEGIN watchtopic -->
 		<li>{S_WATCH_TOPIC}</li>
+		<li><a id="switch-sidebar" href="#">Afficher/Masquer la barre latérale</a></li>
 		<!-- END watchtopic -->
 	</ul>
 	<div id="user-info">
@@ -105,10 +106,11 @@ $(function(){
 					<div class="postbody"{postrow.displayed.THANK_BGCOLOR}>
 						<div class="user">
 							<div class="user-ident">
-								<h4 class="username">{postrow.displayed.POSTER_NAME}</h4>
 								<div class="user-basic-info">
 									{postrow.displayed.POSTER_AVATAR}<br />
-									{postrow.displayed.POSTER_RANK_NEW}{postrow.displayed.RANK_IMAGE}
+									<h4 class="username">{postrow.displayed.POSTER_NAME}</h4>
+									{postrow.displayed.POSTER_RANK_NEW}
+									{postrow.displayed.RANK_IMAGE}
 								</div>
 							</div>
 							<div class="user-info">

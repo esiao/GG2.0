@@ -21,12 +21,15 @@
 		}
 		</script>
 	<!-- END multi_selection -->
-
+	<div class="pun-crumbs">
+	<p class="crumbs"><a href="{U_INDEX}">{L_INDEX}</a><strong>{NAV_CAT_DESC}</strong></p>
+	</div>
+	<br>
 	<div class="main-head">
 		<!-- BEGIN multi_selection -->
 		<input onclick="check_uncheck_all_{topics_list_box.row.header_table.BOX_ID}();" type="checkbox" name="all_mark_{topics_list_box.row.header_table.BOX_ID}" value="0" />
 		<!-- END multi_selection -->
-		<h1 class="page-title">{topics_list_box.row.L_TITLE} [{topics_list_box.row.COUNT_TOTAL_TOPICS}]</h1>
+		<h1 class="page-title"></h1>
 	</div>
 	<div class="main-content">
 	<table cellspacing="0" class="table">
@@ -55,7 +58,7 @@
 		<!-- BEGIN multi_selection -->
 		<input onclick="check_uncheck_all_{topics_list_box.row.header_table.BOX_ID}();" type="checkbox" name="all_mark_{topics_list_box.row.header_table.BOX_ID}" value="0" /	>
 		<!-- END multi_selection -->
-		<h2>{topics_list_box.row.topic.table_sticky.L_TITLE} [{topics_list_box.row.topic.table_sticky.COUNT_TOTAL_TOPICS}]</h2>
+		<h2>{topics_list_box.row.topic.table_sticky.L_TITLE}</h2>
 	</div>
 	<div class="main-content">
 	<table cellspacing="0" class="table">
@@ -71,6 +74,7 @@
 	<!-- END table_sticky -->
 		<tr>
 			<td class="tcl tdtopics <!-- BEGIN line_sticky --> sticky-separator <!-- END line_sticky -->">
+				<div class="foruminfo">
 				<span class="status">
 					<img title="{topics_list_box.row.L_TOPIC_FOLDER_ALT}" src="{topics_list_box.row.TOPIC_FOLDER_IMG}" alt="{topics_list_box.row.L_TOPIC_FOLDER_ALT}" />
 				</span>
@@ -82,12 +86,13 @@
 				{topics_list_box.row.PARTICIPATE_POST_IMG}&nbsp;
 				{topics_list_box.row.TOPIC_TYPE}&nbsp;
 				<h2 class="topic-title"><a class="topictitle" href="{topics_list_box.row.U_VIEW_TOPIC}">{topics_list_box.row.TOPIC_TITLE}</a></h2>
-				{topics_list_box.row.GOTO_OPEN} {topics_list_box.row.GOTO_PAGE_NEW} {topics_list_box.row.GOTO_CLOSE}&nbsp;
+				{topics_list_box.row.GOTO_OPEN} {topics_list_box.row.GOTO_PAGE_NEW} {topics_list_box.row.GOTO_CLOSE}<br>
 				{topics_list_box.row.L_BY} {topics_list_box.row.TOPIC_AUTHOR}
 				<!-- BEGIN switch_description -->
 				<br />
 				&nbsp;{topics_list_box.row.topic.switch_description.TOPIC_DESCRIPTION}
 				<!-- END switch_description -->
+				</div>
 			</td>
 			<td class="tc2 <!-- BEGIN line_sticky --> sticky-separator <!-- END line_sticky -->">{topics_list_box.row.REPLIES}</td>
 			<td class="tc3 <!-- BEGIN line_sticky --> sticky-separator <!-- END line_sticky -->">{topics_list_box.row.VIEWS}</td>
