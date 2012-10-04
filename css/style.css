@@ -39,6 +39,24 @@ a, a:hover {
 tbody {color: #CECECE;}
 #pun-legend li img {margin-left: 10px;}
 .topictitle {font-size: 11px; font-weight: normal;}
+.select {background: #2E2E2E;}
+.select button {background: none;}
+.select button:hover {background: #111}
+/* --- Signture --- */
+.sig-content > br:nth-child(1), .sig-content > br:nth-child(3) {
+   display: none;
+}
+.sig-content{
+   background-color: #222;
+   box-shadow: 0 6px 0 #1e1e1e;
+   border-top: 1px solid #333 !important;
+   border-bottom: 1px solid #333 !important;
+   margin: 7px 0;
+}
+.sig-content > center:nth-child(2){
+   margin-top: -18px;
+   margin-bottom: 10px;
+}
 /* Visit */
 #pun-visit, .main-box {border: none; padding: 10px; border-radius: 10px;}
 #pun-visit a {color: #CECECE;}
