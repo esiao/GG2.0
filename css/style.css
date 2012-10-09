@@ -47,7 +47,6 @@ tbody {color: #CECECE;}
    display: none;
 }
 .sig-content{
-   background-color: #222;
    box-shadow: 0 6px 0 #1e1e1e;
    border-top: 1px solid #333 !important;
    border-bottom: 1px solid #333 !important;
@@ -134,8 +133,9 @@ tbody {color: #CECECE;}
 .pun table td.tcl {height: auto;}
 .pun tbody.statused td.tcl {padding: 0;}
 .pun table .tcl {width:auto;}
-div.last-msg {position: relative;}
-.last-msg img {position:absolute; right:0px; top:0px;}
+div.last-msg, div.last-msg-index {position: relative;}
+.last-msg img {position:absolute; right:0px; top:-5px;}
+.last-msg-index img {position:absolute; right:0px; top:0px;}
 .main .main-foot, .main .main-head {
 	background: url('http://i.imgur.com/IlOz4.png');
 	background-position: 15px;
