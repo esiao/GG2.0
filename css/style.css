@@ -241,6 +241,7 @@ float: left;
 width: 100px;
 height: 100px;
 overflow: hidden;
+background: black;
 }
 ul#galerie_mini li a img {height: 100px;}
 dl#photo {
