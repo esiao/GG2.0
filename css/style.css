@@ -86,6 +86,8 @@ tbody {color: #CECECE;}
 }
 .crumbs strong a:link, .crumbs strong a:visited, .crumbs strong a:focus, .crumbs strong a:active {color: white;}
 /* --- Sidebar --- */
+.partenaires { margin:auto;text-align:center;width:100% }
+.partenaires img { margin: 2px 0;}
 #content-container div#content {margin-right: 190px}
 #right, #content-container div#container, #content-container div#content {
 	-webkit-transition: all .5s;
@@ -158,23 +160,6 @@ strong.pagination a {
 	font-size: 11px;
 }
 .page-sep {display: none;}
-/* --- Reputation Bar --- */
-.vote .vote-bar {
-	border: none;
-}
-.vote .vote-bar-plus {
-	background-color: #43affc;
-}
-.vote .vote-bar-minus {
-	background-color: black;
-}
-.vote .vote-no-bar {
-	height: 50px;
-	background: #4D4D4D;
-	border: none;
-	margin: 0 auto;
-	width: 3px;
-}
 /* --- User --- */
 .user-ident {text-align: center;}
 .pun .post .user {
